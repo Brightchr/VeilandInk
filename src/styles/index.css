@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap');
+
+@import "tailwindcss";
+
+body {
+    font-family: "Cinzel", serif !important;
+}
+
+/* Parallax Background Effect */
+.parallax-section {
+    position: relative;
+    background-image: url('/Dark-Forest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+}
+
+/* 🔹 Fade effect for smooth blending */
+.fade-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150px; /* Reduced height for a smoother effect */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+
+.fade-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px; /* Reduced height */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+
+/* 🔥 Alternating Overlay Colors */
+.hero-section .overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.about-section .overlay {
+    background: #5F5879;
+}
+
+.gallery-section .overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.alternate-section .overlay {
+    background: #5F5879;
+}
+.services-section .overlay {
+    background: #5F5879; /* Lavender Overlay */
+}
+.testimonials-section .overlay {
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+}
+.contact-section .overlay {
+    background: #5F5879; /* Lavender Overlay */
+}
+
+
+
+
