@@ -44,7 +44,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="parallax-section contact-section py-20 text-center relative">
+        <section id="contact" className="parallax-section contact-section py-20 text-center relative">
             <div className="overlay mix-blend-multiply"></div>
             <div className="fade-top"></div>
             <div className="fade-bottom"></div>

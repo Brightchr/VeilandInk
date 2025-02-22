@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
     return (
-        <section className="parallax-section hero-section h-screen flex flex-col items-center justify-center text-center relative">
+        <section id="hero" className="parallax-section hero-section h-screen flex flex-col items-center justify-center text-center relative">
             <div className="overlay mix-blend-multiply"></div>
             <div className="fade-bottom"></div>
             <motion.h1

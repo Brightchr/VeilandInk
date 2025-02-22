@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Gallery = () => {
     return (
-        <section className="parallax-section gallery-section py-20 text-center relative">
+        <section id="gallery" className="parallax-section gallery-section py-20 text-center relative">
             <div className="overlay mix-blend-multiply"></div>
             <div className="fade-top"></div>
             <div className="fade-bottom"></div>

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <section className="parallax-section about-section py-20 text-center relative">
+        <section id="about" className="parallax-section about-section py-20 text-center relative">
             <div className="overlay mix-blend-multiply"></div>
             <div className="fade-top"></div>
             <div className="fade-bottom"></div>

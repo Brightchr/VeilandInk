@@ -21,7 +21,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className="parallax-section testimonials-section py-20 text-center relative overflow-hidden">
+        <section id="testimonials" className="parallax-section testimonials-section py-20 text-center relative overflow-hidden">
             <div className="overlay mix-blend-multiply"></div>
             <div className="fade-top"></div>
             <div className="fade-bottom"></div>

@@ -29,7 +29,7 @@ const services = [
 
 const Services = () => {
     return (
-        <section className="parallax-section services-section py-20 text-center relative">
+        <section id="services" className="parallax-section services-section py-20 text-center relative">
             {/* Overlay Effects */}
             <div className="overlay mix-blend-multiply"></div>
             <div className="fade-top"></div>
